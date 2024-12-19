@@ -1,5 +1,3 @@
-// src/app/components/rnd-visualization/rnd-cdf-plot/rnd-cdf-plot.component.ts
-
 import { Component, Input, OnChanges, OnDestroy, SimpleChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RNDResponse } from '../../../models/rnd.model';
@@ -80,4 +78,3 @@ export class RndCdfPlotComponent implements OnChanges, OnDestroy {
     const colors = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00'];
     return colors[index % colors.length];
   }
-}

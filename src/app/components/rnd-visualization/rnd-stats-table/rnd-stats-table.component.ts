@@ -105,4 +105,3 @@ export class RndStatsTableComponent implements OnChanges, OnDestroy {
 
     Plotly.newPlot(this.elementId, [trace], layout, config);
   }
-}
