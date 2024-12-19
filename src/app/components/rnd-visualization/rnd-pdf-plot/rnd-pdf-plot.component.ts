@@ -83,3 +83,4 @@ export class RndPdfPlotComponent implements OnChanges, OnDestroy {
     const colors = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00'];
     return colors[index % colors.length];
   }
+}
