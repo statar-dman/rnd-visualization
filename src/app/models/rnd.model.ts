@@ -17,4 +17,3 @@ export interface RNDRequest {
   
   export interface RNDResponse {
     data: RNDDataPoint[];
-  }
