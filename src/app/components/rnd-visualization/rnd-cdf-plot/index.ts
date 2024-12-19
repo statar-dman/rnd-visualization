@@ -1,0 +1,1 @@
+export * from './rnd-cdf-plot.component';
